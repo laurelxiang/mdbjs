@@ -1,5 +1,6 @@
-"use strict";
-
-module.exports = {
-  timeout: 60000,
+{
+    "spec": "test/**/test.spec.ts",
+    "timeout": 35000,
+    "require": ["source-map-support/register",
+        "ts-node/register"]
 }

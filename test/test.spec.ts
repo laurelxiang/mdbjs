@@ -6,7 +6,6 @@ import { MongoClient } from "../dist/mongodb.cjs";
 import { MONGO_CLIENT_EVENTS } from 'mongodb/lib/constants.js'
 import { myHello, constructMessage, parseMessage } from "../src/LaurelsSocket";
 import { SocketWrapper } from '../src/ws';
-import util from "node:util";
 
 chai.config.truncateThreshold = 0;
 
